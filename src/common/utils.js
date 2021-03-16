@@ -220,11 +220,10 @@ function getCardColors({
  * @param {number} maxLines
  * @returns {string[]}
  */
-function wrapTextMultiline(text, width = 59, maxLines = 3) {
+function wrapTextMultiline(text, width = 48, maxLines = 3) {
   const fullWidthComma = "，";
   const encoded = encodeHTML(text);
   const isChinese = encoded.includes(fullWidthComma);
-
   let wrapped = [];
 
   if (isChinese) {
