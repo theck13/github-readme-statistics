@@ -142,7 +142,7 @@ function getCardColors({
   return { titleColor, iconColor, textColor, bgColor };
 }
 
-function wrapTextMultiline(text, width = 60, maxLines = 3) {
+function wrapTextMultiline(text, width = 48, maxLines = 3) {
   const wrapped = wrap(encodeHTML(text), { width })
     .split("\n") // Split wrapped lines to get an array of lines
     .map((line) => line.trim()); // Remove leading and trailing whitespace of each line
