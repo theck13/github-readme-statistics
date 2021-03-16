@@ -117,7 +117,7 @@ const renderRepoCard = (repo, options = {}) => {
   const card = new Card({
     defaultTitle: header,
     titlePrefixIcon: icons.contribs,
-    width: 328,
+    width: 312,
     height,
     border_radius,
     colors: {
