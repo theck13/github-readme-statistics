@@ -154,9 +154,9 @@ function wrapTextMultiline(text, width = 46, maxLines = 3) {
     lines[maxLines - 1] += "...";
   }
 
-  // Remove empty lines if text fits in less than maxLines lines
-  const multiLineText = lines.filter(Boolean);
-  return multiLineText;
+  // Add empty lines if text fits in less than maxLines lines
+  lines.length = maxLines;
+  return lines;
 }
 
 const noop = () => {};
