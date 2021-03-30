@@ -5,6 +5,7 @@ const {
   getCardColors,
   FlexLayout,
   wrapTextMultiline,
+  parseBoolean,
 } = require("../common/utils");
 const I18n = require("../common/I18n");
 const Card = require("../common/Card");
@@ -24,6 +25,7 @@ const renderRepoCard = (repo, options = {}) => {
   } = repo;
   const {
     hide_border = false,
+    show_icons = true,
     title_color,
     icon_color,
     text_color,
@@ -116,7 +118,7 @@ const renderRepoCard = (repo, options = {}) => {
 
   const card = new Card({
     defaultTitle: header,
-    titlePrefixIcon: icons.contribs,
+    titlePrefixIcon: parseBoolean(show_icons) && icons.contribs,
     width: 312,
     height,
     border_radius,

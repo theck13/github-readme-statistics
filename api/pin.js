@@ -15,6 +15,7 @@ module.exports = async (req, res) => {
     username,
     repo,
     hide_border,
+    show_icons,
     title_color,
     icon_color,
     text_color,
@@ -65,6 +66,7 @@ module.exports = async (req, res) => {
     return res.send(
       renderRepoCard(repoData, {
         hide_border,
+        show_icons,
         title_color,
         icon_color,
         text_color,

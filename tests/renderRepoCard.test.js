@@ -28,9 +28,6 @@ describe("Test renderRepoCard", () => {
 
     expect(header).toHaveTextContent("convoychat");
     expect(header).not.toHaveTextContent("anuraghazra");
-    expect(document.getElementsByClassName("description")[0]).toHaveTextContent(
-      "Help us take over the world! React + TS + GraphQL Chat App",
-    );
     expect(queryByTestId(document.body, "stargazers")).toHaveTextContent("38k");
     expect(queryByTestId(document.body, "forkcount")).toHaveTextContent("100");
     expect(queryByTestId(document.body, "lang-name")).toHaveTextContent(
@@ -60,11 +57,11 @@ describe("Test renderRepoCard", () => {
 
     expect(
       document.getElementsByClassName("description")[0].children[0].textContent,
-    ).toBe("The quick brown fox jumps over the lazy dog is an");
+    ).toBe("The quick brown fox jumps over the lazy dog is");
 
     expect(
       document.getElementsByClassName("description")[0].children[1].textContent,
-    ).toBe("English-language pangram—a sentence that contains all");
+    ).toBe("an English-language pangram—a sentence");
 
     // Should not trim
     document.body.innerHTML = renderRepoCard({
