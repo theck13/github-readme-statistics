@@ -27,23 +27,6 @@ describe("Test utils.js", () => {
     );
   });
 
-  it("should test renderError", () => {
-    document.body.innerHTML = renderError("Something went wrong");
-    expect(
-      queryByTestId(document.body, "message").children[0],
-    ).toHaveTextContent(/Something went wrong/gim);
-    expect(queryByTestId(document.body, "message").children[1]).toBeEmpty(2);
-
-    // Secondary message
-    document.body.innerHTML = renderError(
-      "Something went wrong",
-      "Secondary Message",
-    );
-    expect(
-      queryByTestId(document.body, "message").children[1],
-    ).toHaveTextContent(/Secondary Message/gim);
-  });
-
   it("should test FlexLayout", () => {
     const layout = FlexLayout({
       items: ["<text>1</text>", "<text>2</text>"],
