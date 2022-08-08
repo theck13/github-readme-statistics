@@ -1,7 +1,12 @@
-const { request, logger, clampValue } = require("../common/utils");
+// @ts-check
+const { request, logger, MissingParamError } = require("../common/utils");
 const retryer = require("../common/retryer");
 require("dotenv").config();
 
+/**
+ * @param {import('Axios').AxiosRequestHeaders} variables
+ * @param {string} token
+ */
 const fetcher = (variables, token) => {
   return request(
     {
@@ -29,15 +34,18 @@ const fetcher = (variables, token) => {
       variables,
     },
     {
-      Authorization: `bearer ${token}`,
+      Authorization: `token ${token}`,
     },
   );
 };
 
-async function fetchTopLanguages(username, langsCount = 5, exclude_repo = []) {
-  if (!username) throw Error("Invalid username");
-
-  langsCount = clampValue(parseInt(langsCount), 1, 10);
+/**
+ * @param {string} username
+ * @param {string[]} exclude_repo
+ * @returns {Promise<import("./types").TopLangData>}
+ */
+async function fetchTopLanguages(username, exclude_repo = []) {
+  if (!username) throw new MissingParamError(["username"]);
 
   const res = await retryer(fetcher, { login: username });
 
@@ -60,14 +68,10 @@ async function fetchTopLanguages(username, langsCount = 5, exclude_repo = []) {
   // filter out repositories to be hidden
   repoNodes = repoNodes
     .sort((a, b) => b.size - a.size)
-    .filter((name) => {
-      return !repoToHide[name.name];
-    });
+    .filter((name) => !repoToHide[name.name]);
 
   repoNodes = repoNodes
-    .filter((node) => {
-      return node.languages.edges.length > 0;
-    })
+    .filter((node) => node.languages.edges.length > 0)
     // flatten the list of language nodes
     .reduce((acc, curr) => curr.languages.edges.concat(acc), [])
     .reduce((acc, prev) => {
@@ -92,7 +96,6 @@ async function fetchTopLanguages(username, langsCount = 5, exclude_repo = []) {
 
   const topLangs = Object.keys(repoNodes)
     .sort((a, b) => repoNodes[b].size - repoNodes[a].size)
-    .slice(0, langsCount)
     .reduce((result, key) => {
       result[key] = repoNodes[key];
       return result;

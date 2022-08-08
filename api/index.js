@@ -32,9 +32,8 @@ module.exports = async (req, res) => {
     locale,
     disable_animations,
     border_radius,
+    border_color,
   } = req.query;
-  let stats;
-
   res.setHeader("Content-Type", "image/svg+xml");
 
   if (blacklist.includes(username)) {
@@ -46,15 +45,15 @@ module.exports = async (req, res) => {
   }
 
   try {
-    stats = await fetchStats(
+    const stats = await fetchStats(
       username,
       parseBoolean(count_private),
       parseBoolean(include_all_commits),
     );
 
     const cacheSeconds = clampValue(
-      parseInt(cache_seconds || CONSTANTS.TWO_HOURS, 10),
-      CONSTANTS.TWO_HOURS,
+      parseInt(cache_seconds || CONSTANTS.FOUR_HOURS, 10),
+      CONSTANTS.FOUR_HOURS,
       CONSTANTS.ONE_DAY,
     );
 
@@ -76,6 +75,7 @@ module.exports = async (req, res) => {
         theme,
         custom_title,
         border_radius,
+        border_color,
         locale: locale ? locale.toLowerCase() : null,
         disable_animations: parseBoolean(disable_animations),
       }),

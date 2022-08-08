@@ -1,3 +1,4 @@
+// @ts-check
 const I18n = require("../common/I18n");
 const Card = require("../common/Card");
 const icons = require("../common/icons");
@@ -5,7 +6,7 @@ const { getStyles } = require("../getStyles");
 const { statCardLocales } = require("../translations");
 const {
   kFormatter,
-  FlexLayout,
+  flexLayout,
   clampValue,
   measureText,
   getCardColors,
@@ -45,6 +46,11 @@ const createTextNode = ({
   `;
 };
 
+/**
+ * @param {Partial<import('../fetchers/types').StatsData>} stats
+ * @param {Partial<import("./types").StatCardOptions>} options
+ * @returns {string}
+ */
 const renderStatsCard = (stats = {}, options = { hide: [] }) => {
   const {
     name,
@@ -70,20 +76,23 @@ const renderStatsCard = (stats = {}, options = { hide: [] }) => {
     theme = "default",
     custom_title,
     border_radius,
+    border_color,
     locale,
     disable_animations = false,
   } = options;
 
-  const lheight = parseInt(line_height, 10);
+  const lheight = parseInt(String(line_height), 10);
 
   // returns theme based colors with proper overrides and defaults
-  const { titleColor, textColor, iconColor, bgColor } = getCardColors({
-    title_color,
-    icon_color,
-    text_color,
-    bg_color,
-    theme,
-  });
+  const { titleColor, textColor, iconColor, bgColor, borderColor } =
+    getCardColors({
+      title_color,
+      icon_color,
+      text_color,
+      bg_color,
+      border_color,
+      theme,
+    });
 
   const apostrophe = ["x", "s"].includes(name.slice(-1).toLocaleLowerCase())
     ? ""
@@ -129,7 +138,19 @@ const renderStatsCard = (stats = {}, options = { hide: [] }) => {
     },
   };
 
-  const longLocales = ["cn", "es", "fr", "pt-br", "ru", "uk-ua", "id", "my", "pl"];
+  const longLocales = [
+    "cn",
+    "es",
+    "fr",
+    "pt-br",
+    "ru",
+    "uk-ua",
+    "id",
+    "my",
+    "pl",
+    "de",
+    "nl",
+  ];
   const isLongLocale = longLocales.includes(locale) === true;
 
   // filter out hidden stats defined by user & create the text nodes
@@ -142,7 +163,7 @@ const renderStatsCard = (stats = {}, options = { hide: [] }) => {
         index,
         showIcons: show_icons,
         shiftValuePos:
-          (!include_all_commits ? 50 : 20) + (isLongLocale ? 50 : 0),
+          (!include_all_commits ? 50 : 35) + (isLongLocale ? 50 : 0),
       }),
     );
 
@@ -162,8 +183,8 @@ const renderStatsCard = (stats = {}, options = { hide: [] }) => {
         <circle class="rank-circle" cx="-10" cy="8" r="40" />
         <g class="rank-text">
           <text
-            x="${rank.level.length === 1 ? "-4" : "0"}"
-            y="0"
+            x="-5"
+            y="3"
             alignment-baseline="central"
             dominant-baseline="central"
             text-anchor="middle"
@@ -207,6 +228,7 @@ const renderStatsCard = (stats = {}, options = { hide: [] }) => {
       textColor,
       iconColor,
       bgColor,
+      borderColor,
     },
   });
 
@@ -216,11 +238,28 @@ const renderStatsCard = (stats = {}, options = { hide: [] }) => {
 
   if (disable_animations) card.disableAnimations();
 
+  // Accessibility Labels
+  const labels = Object.keys(STATS)
+    .filter((key) => !hide.includes(key))
+    .map((key) => {
+      if (key === "commits") {
+        return `${i18n.t("statcard.commits")} ${
+          include_all_commits ? "" : `in ${new Date().getFullYear()}`
+        } : ${totalStars}`;
+      }
+      return `${STATS[key].label}: ${STATS[key].value}`;
+    })
+    .join(", ");
+
+  card.setAccessibilityLabel({
+    title: `${card.title}, Rank: ${rank.level}`,
+    desc: labels,
+  });
+
   return card.render(`
     ${rankCircle}
-
     <svg x="0" y="0">
-      ${FlexLayout({
+      ${flexLayout({
         items: statItems,
         gap: lheight,
         direction: "column",
