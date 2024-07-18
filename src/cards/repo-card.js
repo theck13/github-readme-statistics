@@ -18,7 +18,7 @@ import {
 import { repoCardLocales } from "../translations.js";
 
 const ICON_SIZE = 16;
-const DESCRIPTION_LINE_WIDTH = 59;
+const DESCRIPTION_LINE_WIDTH = 42;
 const DESCRIPTION_MAX_LINES = 3;
 
 /**
@@ -91,11 +91,9 @@ const renderRepoCard = (repo, options = {}) => {
     : DESCRIPTION_MAX_LINES;
 
   const desc = parseEmojis(description || "No description provided");
-  const multiLineDescription = show_description ? wrapTextMultiline(
-    desc,
-    DESCRIPTION_LINE_WIDTH,
-    descriptionMaxLines,
-  ) : [];
+  const multiLineDescription = show_description
+    ? wrapTextMultiline(desc, DESCRIPTION_LINE_WIDTH, descriptionMaxLines)
+    : [];
   const descriptionLinesCount = description_lines_count
     ? clampValue(description_lines_count, 1, DESCRIPTION_MAX_LINES)
     : multiLineDescription.length;
@@ -103,7 +101,7 @@ const renderRepoCard = (repo, options = {}) => {
     .map((line) => `<tspan dy="1.2em" x="25">${encodeHTML(line)}</tspan>`)
     .join("");
 
-  const height =
+  let height =
     (descriptionLinesCount > 1 ? 120 : 110) +
     descriptionLinesCount * lineHeight;
   if (!show_description) {

@@ -69,11 +69,11 @@ describe("Test renderRepoCard", () => {
 
     expect(
       document.getElementsByClassName("description")[0].children[0].textContent,
-    ).toBe("The quick brown fox jumps over the lazy dog is");
+    ).toBe("The quick brown fox jumps over the lazy");
 
     expect(
       document.getElementsByClassName("description")[0].children[1].textContent,
-    ).toBe("an English-language pangram—a sentence");
+    ).toBe("dog is an English-language pangram—a");
 
     // Should not trim
     document.body.innerHTML = renderRepoCard({
@@ -90,7 +90,9 @@ describe("Test renderRepoCard", () => {
     document.body.innerHTML = renderRepoCard(data_repo.repository, {
       show_description: false,
     });
-    expect(document.getElementsByClassName("description")[0]).toHaveTextContent("");
+    expect(document.getElementsByClassName("description")[0]).toHaveTextContent(
+      "",
+    );
   });
 
   it("should render emojis", () => {
