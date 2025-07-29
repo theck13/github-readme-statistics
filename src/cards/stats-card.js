@@ -265,12 +265,13 @@ const renderStatsCard = (stats, options = {}) => {
   // Meta data for creating text nodes with createTextNode function
   const STATS = {};
 
-  STATS.stars = {
-    icon: icons.star,
-    label: i18n.t("statcard.totalstars"),
-    value: totalStars,
-    id: "stars",
+  STATS.contribs = {
+    icon: icons.contribs,
+    label: i18n.t("statcard.contribs"),
+    value: contributedTo,
+    id: "contribs",
   };
+
   STATS.commits = {
     icon: icons.commits,
     label: `${i18n.t("statcard.commits")}${
@@ -279,6 +280,14 @@ const renderStatsCard = (stats, options = {}) => {
     value: totalCommits,
     id: "commits",
   };
+
+  STATS.issues = {
+    icon: icons.issues,
+    label: i18n.t("statcard.issues"),
+    value: totalIssues,
+    id: "issues",
+  };
+
   STATS.prs = {
     icon: icons.prs,
     label: i18n.t("statcard.prs"),
@@ -314,21 +323,6 @@ const renderStatsCard = (stats, options = {}) => {
     };
   }
 
-  STATS.issues = {
-    icon: icons.issues,
-    label: i18n.t("statcard.issues"),
-    value: totalIssues,
-    id: "issues",
-  };
-
-  if (show.includes("discussions_started")) {
-    STATS.discussions_started = {
-      icon: icons.discussions_started,
-      label: i18n.t("statcard.discussions-started"),
-      value: totalDiscussionsStarted,
-      id: "discussions_started",
-    };
-  }
   if (show.includes("discussions_answered")) {
     STATS.discussions_answered = {
       icon: icons.discussions_answered,
@@ -338,11 +332,20 @@ const renderStatsCard = (stats, options = {}) => {
     };
   }
 
-  STATS.contribs = {
-    icon: icons.contribs,
-    label: i18n.t("statcard.contribs"),
-    value: contributedTo,
-    id: "contribs",
+  if (show.includes("discussions_started")) {
+    STATS.discussions_started = {
+      icon: icons.discussions_started,
+      label: i18n.t("statcard.discussions-started"),
+      value: totalDiscussionsStarted,
+      id: "discussions_started",
+    };
+  }
+
+  STATS.stars = {
+    icon: icons.star,
+    label: i18n.t("statcard.totalstars"),
+    value: totalStars,
+    id: "stars",
   };
 
   const longLocales = [
