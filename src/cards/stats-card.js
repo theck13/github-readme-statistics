@@ -288,6 +288,15 @@ const renderStatsCard = (stats, options = {}) => {
     id: "issues",
   };
 
+  if (show.includes("prs_merged") && !show.includes("prs_merged_percentage")) {
+    STATS.prs_merged = {
+      icon: icons.prs_merged,
+      label: i18n.t("statcard.merges"),
+      value: totalPRsMerged,
+      id: "prs_merged",
+    };
+  }
+
   STATS.prs = {
     icon: icons.prs,
     label: i18n.t("statcard.prs"),
@@ -295,7 +304,7 @@ const renderStatsCard = (stats, options = {}) => {
     id: "prs",
   };
 
-  if (show.includes("prs_merged")) {
+  if (show.includes("prs_merged") && show.includes("prs_merged_percentage")) {
     STATS.prs_merged = {
       icon: icons.prs_merged,
       label: i18n.t("statcard.prs-merged"),
