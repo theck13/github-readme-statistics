@@ -314,7 +314,7 @@ Name | Description | Type (Options) | Default
 Name | Description | Type (Options) | Default
 -|-|-|-
 `card_width` | card width | integer | `300`
-`count_weight` | [language algorithm](#language-algorithm)) | float (min: `0.0`) | `0.0`
+`count_weight` | count weight ([language algorithm](#language-percentage-algorithm)) | float (min: `0.0`) | `0.0`
 `custom_title` | card title | string | `Most Used Languages`
 `disable_animations` | disable animations | boolean (`false` or `true`) | `false`
 `exclude_repo` | excludes repositories | string (comma-separated values) | `null`
@@ -323,7 +323,7 @@ Name | Description | Type (Options) | Default
 `hide_title` | hide title | boolean (`false` or `true`) | `false`
 `langs_count` | languages count | integer (min: `1`, max: `20`) | `5` for `normal` and `donut`, `6` for others
 `layout` | layout style | enum ([layouts](#language-layouts)) | `normal`
-`size_weight` | [language algorithm](#language-algorithm)) | float (min: `0.0`) | `1.0`
+`size_weight` | size weight ([language algorithm](#language-percentage-algorithm)) | float (min: `0.0`) | `1.0`
 
 ##### Language Layouts
 
