@@ -93,7 +93,7 @@ const wakaTimeData = {
     total_seconds: 80473.135716,
     total_seconds_including_other_language: 81643.570077,
     user_id: "random hash",
-    username: "anuraghazra",
+    username: "theck13",
     writes_only: false,
   },
 };
@@ -106,7 +106,7 @@ afterEach(() => {
 
 describe("Test /api/wakatime", () => {
   it("should test the request", async () => {
-    const username = "anuraghazra";
+    const username = "theck13";
     const req = { query: { username } };
     const res = { setHeader: jest.fn(), send: jest.fn() };
     mock
