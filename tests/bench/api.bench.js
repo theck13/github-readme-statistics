@@ -5,7 +5,7 @@ import MockAdapter from "axios-mock-adapter";
 import { jest } from "@jest/globals";
 
 const stats = {
-  name: "Anurag Hazra",
+  name: "Tyler Heck",
   totalStars: 100,
   totalCommits: 200,
   totalIssues: 300,

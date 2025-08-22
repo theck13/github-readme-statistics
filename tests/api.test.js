@@ -8,7 +8,7 @@ import { CONSTANTS, renderError } from "../src/common/utils.js";
 import { expect, it, describe, afterEach } from "@jest/globals";
 
 const stats = {
-  name: "Anurag Hazra",
+  name: "Tyler Heck",
   totalStars: 100,
   totalCommits: 200,
   totalIssues: 300,
