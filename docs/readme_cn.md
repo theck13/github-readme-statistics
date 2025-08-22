@@ -4,23 +4,23 @@
  <p align="center">在你的 README 中获取动态生成的 GitHub 统计信息！</p>
 </p>
   <p align="center">
-    <a href="https://github.com/theck13/github-readme-stats/actions">
-      <img alt="Tests Passing" src="https://github.com/theck13/github-readme-stats/workflows/Test/badge.svg" />
+    <a href="https://github.com/theck13/github-readme-statistics/actions">
+      <img alt="Tests Passing" src="https://github.com/theck13/github-readme-statistics/workflows/Test/badge.svg" />
     </a>
-    <a href="https://github.com/theck13/github-readme-stats/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/theck13/github-readme-stats" />
+    <a href="https://github.com/theck13/github-readme-statistics/graphs/contributors">
+      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/theck13/github-readme-statistics" />
     </a>
-    <a href="https://codecov.io/gh/theck13/github-readme-stats">
-      <img alt="Tests Coverage" src="https://codecov.io/gh/theck13/github-readme-stats/branch/master/graph/badge.svg" />
+    <a href="https://codecov.io/gh/theck13/github-readme-statistics">
+      <img alt="Tests Coverage" src="https://codecov.io/gh/theck13/github-readme-statistics/branch/master/graph/badge.svg" />
     </a>
-    <a href="https://github.com/theck13/github-readme-stats/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/theck13/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/theck13/github-readme-statistics/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/theck13/github-readme-statistics?color=0088ff" />
     </a>
-    <a href="https://github.com/theck13/github-readme-stats/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/theck13/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/theck13/github-readme-statistics/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/theck13/github-readme-statistics?color=0088ff" />
     </a>
-    <a href="https://securityscorecards.dev/viewer/?uri=github.com/theck13/github-readme-stats">
-      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/theck13/github-readme-stats/badge" />
+    <a href="https://securityscorecards.dev/viewer/?uri=github.com/theck13/github-readme-statistics">
+      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/theck13/github-readme-statistics/badge" />
     </a>
     <br />
     <br />
@@ -29,9 +29,9 @@
   <p align="center">
     <a href="#全部-demos">查看 Demo</a>
     ·
-    <a href="https://github.com/theck13/github-readme-stats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">报告 Bug</a>
+    <a href="https://github.com/theck13/github-readme-statistics/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">报告 Bug</a>
     ·
-    <a href="https://github.com/theck13/github-readme-stats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">请求增加功能</a>
+    <a href="https://github.com/theck13/github-readme-statistics/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">请求增加功能</a>
   </p>
   <p align="center">
     <a href="/docs/readme_fr.md">Français</a>
@@ -87,7 +87,7 @@
 更改 `?username=` 的值为你的 GitHub 用户名。
 
 ```md
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13)](https://github.com/theck13/github-readme-stats)
+[![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13)](https://github.com/theck13/github-readme-statistics)
 ```
 
 _注: 等级基于用户的统计信息计算得出，详见 [src/calculateRank.js](../src/calculateRank.js)_
@@ -99,7 +99,7 @@ _注: 等级基于用户的统计信息计算得出，详见 [src/calculateRank.
 > 选项：`&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&hide=contribs,prs)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&hide=contribs,prs)
 ```
 
 ### 将私人项目贡献添加到总提交计数中
@@ -111,7 +111,7 @@ _注：如果你是自己部署本项目，私人贡献将会默认被计数，�
 > 选项: `&count_private=true`
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&count_private=true)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&count_private=true)
 ```
 
 ### 显示图标
@@ -119,7 +119,7 @@ _注：如果你是自己部署本项目，私人贡献将会默认被计数，�
 如果想要显示图标，你可以调用 `show_icons=true` 参数，像这样：
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&show_icons=true)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&show_icons=true)
 ```
 
 ### 主题
@@ -129,7 +129,7 @@ _注：如果你是自己部署本项目，私人贡献将会默认被计数，�
 通过调用 `?theme=THEME_NAME` 参数，像这样：
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&show_icons=true&theme=radical)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&show_icons=true&theme=radical)
 ```
 
 #### 所有现有主题
@@ -202,25 +202,25 @@ GitHub 更多置顶 允许你在使用 GitHub readme profile 时，在个人资�
 
 复制粘贴这段代码到你的 README 文件中，并更改链接。
 
-端点: `api/pin?username=theck13&repo=github-readme-stats`
+端点: `api/pin?username=theck13&repo=github-readme-statistics`
 
 ```md
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=theck13&repo=github-readme-stats)](https://github.com/theck13/github-readme-stats)
+[![Readme Card](https://github-readme-statistics-main.vercel.app/api/pin/?username=theck13&repo=github-readme-statistics)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### Demo
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=theck13&repo=github-readme-stats)](https://github.com/theck13/github-readme-stats)
+[![Readme Card](https://github-readme-statistics-main.vercel.app/api/pin/?username=theck13&repo=github-readme-statistics)](https://github.com/theck13/github-readme-statistics)
 
 使用 [show_owner](#自定义) 变量将 Repo 所有者的用户名包含在内。
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=theck13&repo=github-readme-stats&show_owner=true)](https://github.com/theck13/github-readme-stats)
+[![Readme Card](https://github-readme-statistics-main.vercel.app/api/pin/?username=theck13&repo=github-readme-statistics&show_owner=true)](https://github.com/theck13/github-readme-statistics)
 
 # 热门语言卡片
 
 热门语言卡片显示了 GitHub 用户常用的编程语言。
 
-_注意：热门语言并不表示我的技能水平或类似的水平，它是用来衡量用户在 github 上拥有最多代码的语言的一项指标，它是 github-readme-stats 的新特性_
+_注意：热门语言并不表示我的技能水平或类似的水平，它是用来衡量用户在 github 上拥有最多代码的语言的一项指标，它是 github-readme-statistics 的新特性_
 
 ### 使用细则
 
@@ -229,7 +229,7 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 端点: `api/top-langs?username=theck13`
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### 隐藏指定语言
@@ -237,7 +237,7 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 可以使用 `?hide=language1,language2` 参数来隐藏指定的语言。
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13&hide=javascript,html)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13&hide=javascript,html)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### 紧凑的语言卡片布局
@@ -245,16 +245,16 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 你可以使用 `&layout=compact` 参数来改变卡片的样式。
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13&layout=compact)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13&layout=compact)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### Demo
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-statistics)
 
 - 紧凑布局
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13&layout=compact)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13&layout=compact)](https://github.com/theck13/github-readme-statistics)
 
 ---
 
@@ -262,41 +262,41 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 
 - 默认
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13)
 
 - 隐藏指定统计
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&hide=contribs,issues)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&hide=contribs,issues)
 
 - 显示图标
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&hide=issues&show_icons=true)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&hide=issues&show_icons=true)
 
 - 包含全部提交
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&include_all_commits=true)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&include_all_commits=true)
 
 - 主题
 
 从[默认主题](#主题)中进行选择
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&show_icons=true&theme=radical)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&show_icons=true&theme=radical)
 
 - 渐变
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - 自定义统计卡片
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=theck13&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api/?username=theck13&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - 自定义 repo 卡片
 
-![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=theck13&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://github-readme-statistics-main.vercel.app/api/pin?username=theck13&repo=github-readme-statistics&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - 热门语言
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-statistics)
 
 ---
 
@@ -305,11 +305,11 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 你通常无法将图片靠边显示。为此，您可以使用以下方法：
 
 ```html
-<a href="https://github.com/theck13/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=theck13&repo=github-readme-stats" />
+<a href="https://github.com/theck13/github-readme-statistics">
+  <img align="center" src="https://github-readme-statistics-main.vercel.app/api/pin/?username=theck13&repo=github-readme-statistics" />
 </a>
 <a href="https://github.com/theck13/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=theck13&repo=convoychat" />
+  <img align="center" src="https://github-readme-statistics-main.vercel.app/api/pin/?username=theck13&repo=convoychat" />
 </a>
 ```
 
@@ -317,11 +317,11 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 
 #### [查看分步视频教程 作者：@codeSTACKr](https://youtu.be/n6d4KHSKqGk?t=107)
 
-因为 GitHub 的 API 每个小时只允许 5 千次请求，我的 `https://github-readme-stats.vercel.app/api` 很有可能会触发限制。如果你将其托管在自己的 Vercel 服务器上，那么你就不必为此担心。点击 deploy 按钮来开始你的部署！
+因为 GitHub 的 API 每个小时只允许 5 千次请求，我的 `https://github-readme-statistics-main.vercel.app/api` 很有可能会触发限制。如果你将其托管在自己的 Vercel 服务器上，那么你就不必为此担心。点击 deploy 按钮来开始你的部署！
 
-注意: 从 [#58](https://github.com/theck13/github-readme-stats/pull/58) 开始，我们应该能够处理超过 5 千次的请求，并且不会出现宕机问题 :D
+注意: 从 [#58](https://github.com/theck13/github-readme-statistics/pull/58) 开始，我们应该能够处理超过 5 千次的请求，并且不会出现宕机问题 :D
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/theck13/github-readme-stats)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/theck13/github-readme-statistics)
 
 <details>
  <summary>设置 Vercel 的指导</summary>
@@ -350,7 +350,7 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 
 然而, 如果你正在使用这个项目并感觉良好，或只是想要支持我继续开发，你可以通过如下方式：
 
-- 在你的 readme 中使用 github-readme-stats 时，链接指向这里 :D
+- 在你的 readme 中使用 github-readme-statistics 时，链接指向这里 :D
 - Star 并 分享这个项目 :rocket:
 - [![paypal.me/theck13](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/theck13) - 你可以通过 PayPal 一次性捐款. 我多半会买一杯 ~~咖啡~~ 茶. :tea:
 

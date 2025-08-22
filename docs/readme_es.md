@@ -5,23 +5,23 @@
 </p>
 
   <p align="center">
-    <a href="https://github.com/theck13/github-readme-stats/actions">
-      <img alt="Tests Passing" src="https://github.com/theck13/github-readme-stats/workflows/Test/badge.svg" />
+    <a href="https://github.com/theck13/github-readme-statistics/actions">
+      <img alt="Tests Passing" src="https://github.com/theck13/github-readme-statistics/workflows/Test/badge.svg" />
     </a>
-    <a href="https://github.com/theck13/github-readme-stats/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/theck13/github-readme-stats" />
+    <a href="https://github.com/theck13/github-readme-statistics/graphs/contributors">
+      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/theck13/github-readme-statistics" />
     </a>
-    <a href="https://codecov.io/gh/theck13/github-readme-stats">
-      <img alt="Tests Coverage" src="https://codecov.io/gh/theck13/github-readme-stats/branch/master/graph/badge.svg" />
+    <a href="https://codecov.io/gh/theck13/github-readme-statistics">
+      <img alt="Tests Coverage" src="https://codecov.io/gh/theck13/github-readme-statistics/branch/master/graph/badge.svg" />
     </a>
-    <a href="https://github.com/theck13/github-readme-stats/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/theck13/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/theck13/github-readme-statistics/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/theck13/github-readme-statistics?color=0088ff" />
     </a>
-    <a href="https://github.com/theck13/github-readme-stats/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/theck13/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/theck13/github-readme-statistics/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/theck13/github-readme-statistics?color=0088ff" />
     </a>
-    <a href="https://securityscorecards.dev/viewer/?uri=github.com/theck13/github-readme-stats">
-      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/theck13/github-readme-stats/badge" />
+    <a href="https://securityscorecards.dev/viewer/?uri=github.com/theck13/github-readme-statistics">
+      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/theck13/github-readme-statistics/badge" />
     </a>
     <br />
     <br />
@@ -30,9 +30,9 @@
   <p align="center">
     <a href="#todos-los-ejemplos">Ver un ejemplo</a>
     ·
-    <a href="https://github.com/theck13/github-readme-stats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Reportar un bug</a>
+    <a href="https://github.com/theck13/github-readme-statistics/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Reportar un bug</a>
     ·
-    <a href="https://github.com/theck13/github-readme-stats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Solicitar una mejora</a>
+    <a href="https://github.com/theck13/github-readme-statistics/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Solicitar una mejora</a>
   </p>
   <p align="center">
     <a href="/docs/readme_fr.md">Français</a>
@@ -92,7 +92,7 @@ Copia y pega esto en el contenido de tu README.md y listo. ¡Simple!
 Cambia el valor de `?username=` al nombre de tu usuario de GitHub.
 
 ```md
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13)](https://github.com/theck13/github-readme-stats)
+[![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13)](https://github.com/theck13/github-readme-statistics)
 ```
 
 _Nota: Los rangos disponibles son S+ (top 1%), S (top 25%), A++ (top 45%), A+ (top 60%) y B+ (todos). Los valores se calculan utilizando la [función de distribución acumulada](https://es.wikipedia.org/wiki/Funci%C3%B3n_de_distribuci%C3%B3n) utilizando commits, contribuciones, issues, estrellas, pull request, seguidores y repositorios propios. Puedes investigar más sobre la implementación en [src/calculateRank.js](../src/calculateRank.js)._
@@ -104,7 +104,7 @@ Para ocultar alguna estadística específica, puedes utilizar el parámetro `?hi
 > Opciones: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&hide=contribs,prs)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&hide=contribs,prs)
 ```
 
 ### Agregar contribuciones privadas al total de commits contados
@@ -116,7 +116,7 @@ _Nota: Si estás desplegando este proyecto tú mismo, las contribuciones privada
 > Opciones: `&count_private=true`
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&count_private=true)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&count_private=true)
 ```
 
 ### Mostrar íconos
@@ -124,7 +124,7 @@ _Nota: Si estás desplegando este proyecto tú mismo, las contribuciones privada
 Para habilitar los íconos, puedes utilizar `show_icons=true` como parámetro, de esta manera:
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&show_icons=true)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&show_icons=true)
 ```
 
 ### Temas
@@ -134,7 +134,7 @@ Puedes personalizar el aspecto de la tarjeta sin realizar ninguna [personalizaci
 Utiliza el parámetro `?theme=THEME_NAME`, de esta manera:
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&show_icons=true&theme=radical)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&show_icons=true&theme=radical)
 ```
 
 #### Todos los temas incorporados
@@ -222,25 +222,25 @@ Los pines adicionales de GitHub le permiten fijar más de 6 repositorios en su p
 
 Copia y pegua este código en tu Readme y cambia los enlaces.
 
-Endpoint: `api/pin?username=theck13&repo=github-readme-stats`
+Endpoint: `api/pin?username=theck13&repo=github-readme-statistics`
 
 ```md
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=theck13&repo=github-readme-stats)](https://github.com/theck13/github-readme-stats)
+[![Readme Card](https://github-readme-statistics-main.vercel.app/api/pin/?username=theck13&repo=github-readme-statistics)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### Ejemplo
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=theck13&repo=github-readme-stats)](https://github.com/theck13/github-readme-stats)
+[![Readme Card](https://github-readme-statistics-main.vercel.app/api/pin/?username=theck13&repo=github-readme-statistics)](https://github.com/theck13/github-readme-statistics)
 
 Utiliza la variable [show_owner](#customización) para incluir el nombre de usuario del propietario del repositorio.
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=theck13&repo=github-readme-stats&show_owner=true)](https://github.com/theck13/github-readme-stats)
+[![Readme Card](https://github-readme-statistics-main.vercel.app/api/pin/?username=theck13&repo=github-readme-statistics&show_owner=true)](https://github.com/theck13/github-readme-statistics)
 
 # Tarjeta de Lenguajes Principales
 
 La tarjeta de lenguajes principales muestra los lenguajes principales del usuario de GitHub que se han utilizado principalmente.
 
-_NOTA: los lenguajes principales no indican mi nivel de habilidad o algo así, es una métrica de GitHub de los lenguajes que tengo más código en GitHub. Es una nueva característica de github-readme-stats_
+_NOTA: los lenguajes principales no indican mi nivel de habilidad o algo así, es una métrica de GitHub de los lenguajes que tengo más código en GitHub. Es una nueva característica de github-readme-statistics_
 
 ### Utilización
 
@@ -249,7 +249,7 @@ Copia y pegua este código en tu Readme y cambia los enlaces.
 Endpoint: `api/top-langs?username=theck13`
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### Excluir repositorios individualmente
@@ -257,7 +257,7 @@ Endpoint: `api/top-langs?username=theck13`
 Puedes usar el parámetro `?exclude_repo=repo1,repo2` para ocultar repositorios individualmente.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13&exclude_repo=github-readme-stats,theck13.github.io)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13&exclude_repo=github-readme-statistics,theck13.github.io)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### Ocultar lenguajes individualmente
@@ -265,7 +265,7 @@ Puedes usar el parámetro `?exclude_repo=repo1,repo2` para ocultar repositorios 
 Puedes usar el parámetro `?hide=language1,language2` para ocultar lenguajes individualmente.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13&hide=javascript,html)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13&hide=javascript,html)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### Mostrar más lenguajes
@@ -273,7 +273,7 @@ Puedes usar el parámetro `?hide=language1,language2` para ocultar lenguajes ind
 Puedes usar el paramétro `&langs_count=` para incrementar o decrementar el número de lenguajes mostrados en la tarjeta. Los valores admitidos son los números enteros entre 1 y 10 (inclusive), y el valor por defecto es 5.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13&langs_count=8)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13&langs_count=8)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### Diseño Compacto de Tarjeta de Lenguaje
@@ -281,34 +281,34 @@ Puedes usar el paramétro `&langs_count=` para incrementar o decrementar el núm
 Puedes usar la opción `& layout = compact` para cambiar el diseño de la tarjeta.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13&layout=compact)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13&layout=compact)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### Ejemplo
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-statistics)
 
 - Diseño compacto
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13&layout=compact)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13&layout=compact)](https://github.com/theck13/github-readme-statistics)
 
 # Estadísticas de la semana de WakaTime
 
 cambia el valor del parámetro `?username=` a tu username en [WakaTime](https://wakatime.com).
 
 ```md
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/theck13/github-readme-stats)
+[![Harlok's WakaTime stats](https://github-readme-statistics-main.vercel.app/api/wakatime?username=ffflabs)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### Ejemplo
 
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/theck13/github-readme-stats)
+[![Harlok's WakaTime stats](https://github-readme-statistics-main.vercel.app/api/wakatime?username=ffflabs)](https://github.com/theck13/github-readme-statistics)
 
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/theck13/github-readme-stats)
+[![Harlok's WakaTime stats](https://github-readme-statistics-main.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/theck13/github-readme-statistics)
 
 - Diseño compacto
 
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs&layout=compact)](https://github.com/theck13/github-readme-stats)
+[![Harlok's WakaTime stats](https://github-readme-statistics-main.vercel.app/api/wakatime?username=ffflabs&layout=compact)](https://github.com/theck13/github-readme-statistics)
 
 ---
 
@@ -316,49 +316,49 @@ cambia el valor del parámetro `?username=` a tu username en [WakaTime](https://
 
 - Por defecto
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13)
 
 - Ocultando ciertas estadísticas
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&hide=contribs,issues)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&hide=contribs,issues)
 
 - Mostrando íconos
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&hide=issues&show_icons=true)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&hide=issues&show_icons=true)
 
 - Incluyendo todos los commits
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&include_all_commits=true)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&include_all_commits=true)
 
 - Temas
 
 Escoja cualquiera de los [temas por defecto](#themes)
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&show_icons=true&theme=radical)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&show_icons=true&theme=radical)
 
 - Gradiente
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - Personalizando Tarjeta de Estadísticas
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=theck13&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api/?username=theck13&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - Estableciendo Idioma de la tarjeta
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=theck13&locale=es)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api/?username=theck13&locale=es)
 
 - Personalizando Tarjeta de Repo
 
-![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=theck13&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://github-readme-statistics-main.vercel.app/api/pin?username=theck13&repo=github-readme-statistics&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - Lenguajes Top
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-statistics)
 
 - Tarjeta de WakaTime
 
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/theck13/github-readme-stats)
+[![Harlok's WakaTime stats](https://github-readme-statistics-main.vercel.app/api/wakatime?username=ffflabs)](https://github.com/theck13/github-readme-statistics)
 
 ---
 
@@ -367,11 +367,11 @@ Escoja cualquiera de los [temas por defecto](#themes)
 Por lo general, no podrás acomodar las imágenes una al lado de la otra. Para hacerlo, puede usar este enfoque:
 
 ```html
-<a href="https://github.com/theck13/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=theck13&repo=github-readme-stats" />
+<a href="https://github.com/theck13/github-readme-statistics">
+  <img align="center" src="https://github-readme-statistics-main.vercel.app/api/pin/?username=theck13&repo=github-readme-statistics" />
 </a>
 <a href="https://github.com/theck13/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=theck13&repo=convoychat" />
+  <img align="center" src="https://github-readme-statistics-main.vercel.app/api/pin/?username=theck13&repo=convoychat" />
 </a>
 ```
 
@@ -379,11 +379,11 @@ Por lo general, no podrás acomodar las imágenes una al lado de la otra. Para h
 
 #### [Échale un vistazo a este tutorial paso a paso de @codeSTACKr](https://youtu.be/n6d4KHSKqGk?t=107)
 
-Desde que la API de GitHub permite solo 5k peticiones por hora, es posible que mi `https://github-readme-stats.vercel.app/api` pueda llegar al límite. Si lo alojas en tu propio servidor de Vercel, no tendrás que preocuparte de nada. ¡Clickea en el botón "Deploy" para comenzar!
+Desde que la API de GitHub permite solo 5k peticiones por hora, es posible que mi `https://github-readme-statistics-main.vercel.app/api` pueda llegar al límite. Si lo alojas en tu propio servidor de Vercel, no tendrás que preocuparte de nada. ¡Clickea en el botón "Deploy" para comenzar!
 
-NOTA: Debido a [#58](https://github.com/theck13/github-readme-stats/pull/58) podríamos manejar más de 5k peticiones sin tener ningún problema con el downtime :D
+NOTA: Debido a [#58](https://github.com/theck13/github-readme-statistics/pull/58) podríamos manejar más de 5k peticiones sin tener ningún problema con el downtime :D
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/theck13/github-readme-stats)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/theck13/github-readme-statistics)
 
 <details>
  <summary>Guía para comenzar en Vercel</summary>
@@ -412,7 +412,7 @@ Casi todos mis proyectos son de código abierto e intento responder a todos los 
 
 No obstante, si estás utilizando este proyecto y estás feliz con él o simplemente quieres animarme a que siga creando cosas, aquí tienes algunas maneras de hacerlo:
 
-- Darme créditos cuando estés utilizando github-readme-stats en tu README, añadiendo un link a este repositorio :D
+- Darme créditos cuando estés utilizando github-readme-statistics en tu README, añadiendo un link a este repositorio :D
 - Dándole una estrella y compartiendo el proyecto :rocket:
 - [![paypal.me/theck13](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/theck13) - Puedes hacerme una única donación a través de PayPal. Probablemente me compraré un ~~café~~ té. :tea:
 

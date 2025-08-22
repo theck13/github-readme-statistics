@@ -4,23 +4,23 @@
  <p align="center">Readme'lerinizde dinamik olarak oluşturulmuş GitHub istatistikleri alın!</p>
 </p>
   <p align="center">
-    <a href="https://github.com/theck13/github-readme-stats/actions">
-      <img alt="Tests Passing" src="https://github.com/theck13/github-readme-stats/workflows/Test/badge.svg" />
+    <a href="https://github.com/theck13/github-readme-statistics/actions">
+      <img alt="Tests Passing" src="https://github.com/theck13/github-readme-statistics/workflows/Test/badge.svg" />
     </a>
-    <a href="https://github.com/theck13/github-readme-stats/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/theck13/github-readme-stats" />
+    <a href="https://github.com/theck13/github-readme-statistics/graphs/contributors">
+      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/theck13/github-readme-statistics" />
     </a>
-    <a href="https://codecov.io/gh/theck13/github-readme-stats">
-      <img alt="Tests Coverage" src="https://codecov.io/gh/theck13/github-readme-stats/branch/master/graph/badge.svg" />
+    <a href="https://codecov.io/gh/theck13/github-readme-statistics">
+      <img alt="Tests Coverage" src="https://codecov.io/gh/theck13/github-readme-statistics/branch/master/graph/badge.svg" />
     </a>
-    <a href="https://github.com/theck13/github-readme-stats/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/theck13/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/theck13/github-readme-statistics/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/theck13/github-readme-statistics?color=0088ff" />
     </a>
-    <a href="https://github.com/theck13/github-readme-stats/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/theck13/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/theck13/github-readme-statistics/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/theck13/github-readme-statistics?color=0088ff" />
     </a>
-    <a href="https://securityscorecards.dev/viewer/?uri=github.com/theck13/github-readme-stats">
-      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/theck13/github-readme-stats/badge" />
+    <a href="https://securityscorecards.dev/viewer/?uri=github.com/theck13/github-readme-statistics">
+      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/theck13/github-readme-statistics/badge" />
     </a>
     <br />
     <br />
@@ -29,9 +29,9 @@
   <p align="center">
     <a href="#demo">Demo</a>
     ·
-    <a href="https://github.com/theck13/github-readme-stats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Hata İlet</a>
+    <a href="https://github.com/theck13/github-readme-statistics/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Hata İlet</a>
     ·
-    <a href="https://github.com/theck13/github-readme-stats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Özellik Talep Et</a>
+    <a href="https://github.com/theck13/github-readme-statistics/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Özellik Talep Et</a>
   </p>
   <p align="center">
     <a href="/docs/readme_fr.md">Français </a>
@@ -91,7 +91,7 @@ Alt kısımdaki kodu Kopyalayın ve yapıştırın. İşte bu kadar. Çok basit!
 `?username=` değerini kendi GitHub kullanıcı adınız ile değiştirin.
 
 ```md
-[![Anurag'nın GitHub İstatistikleri](https://github-readme-stats.vercel.app/api?username=theck13)](https://github.com/theck13/github-readme-stats)
+[![Tyler'nın GitHub İstatistikleri](https://github-readme-statistics-main.vercel.app/api?username=theck13)](https://github.com/theck13/github-readme-statistics)
 ```
 _Not: Şu sıralamalar mevcut: S+ (en üst 1%), S (en üst 25%), A++ (en üst 45%), A+ (en üst 60%), and B+ (herkes).
 Buradaki değerler [cumulative distribution function](https://en.wikipedia.org/wiki/Cumulative_distribution_function) ile hesaplanırken; commitler, katkılar, hatalar, yıldızlar, çekme istekleri, takipçiler ve sahip olunan depolar (repository) göz önünde bulundurulamaktadır.
@@ -104,7 +104,7 @@ Bazı belirli istatistikleri gizlemek için `?hide=` paremetresi içerisinde vir
 > Örnek: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![mustafacagri's github stats](https://github-readme-stats.vercel.app/api?username=mustafacagri&hide=contribs,prs)
+![mustafacagri's github stats](https://github-readme-statistics-main.vercel.app/api?username=mustafacagri&hide=contribs,prs)
 ```
 
 ### Özel Katkı Sayısını Toplam Commit Sayısına Ekleme
@@ -116,7 +116,7 @@ _Not: Eğer projeyi kendiniz yayınlayıp kullanacaksanız, özel depolardaki ge
 > Örnek: `&count_private=true`
 
 ```md
-![mustafacagri's github stats](https://github-readme-stats.vercel.app/api?username=mustafacagri&count_private=true)
+![mustafacagri's github stats](https://github-readme-statistics-main.vercel.app/api?username=mustafacagri&count_private=true)
 ```
 
 ### İkonları Göstermek
@@ -124,7 +124,7 @@ _Not: Eğer projeyi kendiniz yayınlayıp kullanacaksanız, özel depolardaki ge
 Eğer ikonları göstermek istiyorsanız, `show_icons=true` parametresini göndermeniz gerekmektedir. Örnek olarak:
 
 ```md
-![mustafacagri's github stats](https://github-readme-stats.vercel.app/api?username=mustafacagri&show_icons=true)
+![mustafacagri's github stats](https://github-readme-statistics-main.vercel.app/api?username=mustafacagri&show_icons=true)
 ```
 
 ### Temalar
@@ -134,7 +134,7 @@ Dahili olarak gelen temalarla, herhangi bir [manuel özelleştirme](#özelleşti
 `?theme=THEME_NAME` parametresini kullanabilirsiniz:
 
 ```md
-![mustafacagri's github stats](https://github-readme-stats.vercel.app/api?username=mustafacagri&show_icons=true&theme=radical)
+![mustafacagri's github stats](https://github-readme-statistics-main.vercel.app/api?username=mustafacagri&show_icons=true&theme=radical)
 ```
 
 #### Tüm Dahili Temalar :-
@@ -222,25 +222,25 @@ Hey! Artık 6 pin ile kısıtlı kalmayacaksınız!
 
 Alttaki kodu kopyalayıp readme dosyanıza urlleri değiştirerek yapıştırın.
 
-Endpoint: `api/pin?username=mustafacagri&repo=github-readme-stats`
+Endpoint: `api/pin?username=mustafacagri&repo=github-readme-statistics`
 
 ```md
-[![ReadMe Kartı](https://github-readme-stats.vercel.app/api/pin/?username=mustafacagri&repo=github-readme-stats)](https://github.com/theck13/github-readme-stats)
+[![ReadMe Kartı](https://github-readme-statistics-main.vercel.app/api/pin/?username=mustafacagri&repo=github-readme-statistics)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### Demo
 
-[![ReadMe Kartı](https://github-readme-stats.vercel.app/api/pin/?username=mustafacagri&repo=github-readme-stats)](https://github.com/theck13/github-readme-stats)
+[![ReadMe Kartı](https://github-readme-statistics-main.vercel.app/api/pin/?username=mustafacagri&repo=github-readme-statistics)](https://github.com/theck13/github-readme-statistics)
 
 [show_owner](#özelleştirmeler) ile reponun sahibini gösterebilirsiniz.
 
-[![ReadMe Kartı](https://github-readme-stats.vercel.app/api/pin/?username=mustafacagri&repo=github-readme-stats&show_owner=true)](https://github.com/theck13/github-readme-stats)
+[![ReadMe Kartı](https://github-readme-statistics-main.vercel.app/api/pin/?username=mustafacagri&repo=github-readme-statistics&show_owner=true)](https://github.com/theck13/github-readme-statistics)
 
 # En Çok Kullanılan Diller
 
 En çok kullanılan diller kartı kullanıcının en çok kullandığı dilleri gösterir.
 
-_NOTE: En çok kullanılan dillerde yer alan bilgiler sizin yeteneğinizi ve benzeri şeyleri göstermek. Bu, kodlarınızda en çok kullandığınız dilleri gösteren bir GitHub metriğidir. Ayrıca, github-readme-stats'ın yeni özelliğidir.
+_NOTE: En çok kullanılan dillerde yer alan bilgiler sizin yeteneğinizi ve benzeri şeyleri göstermek. Bu, kodlarınızda en çok kullandığınız dilleri gösteren bir GitHub metriğidir. Ayrıca, github-readme-statistics'ın yeni özelliğidir.
 
 ### Kullanım
 
@@ -249,7 +249,7 @@ Alttaki kodu kopyalayıp readme dosyanıza urlleri değiştirerek yapıştırın
 Endpoint: `api/top-langs?username=mustafacagri`
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=mustafacagri)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### Belirli Repoları Çıkartın
@@ -257,7 +257,7 @@ Endpoint: `api/top-langs?username=mustafacagri`
 `?exclude_repo=repo1,repo2` parametresini kullanarak istediğiniz repoları çıkartabilirsiniz.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13&exclude_repo=github-readme-stats,theck13.github.io)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13&exclude_repo=github-readme-statistics,theck13.github.io)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### Belirli Dilleri Çıkartın
@@ -265,7 +265,7 @@ Endpoint: `api/top-langs?username=mustafacagri`
 `?hide=language1,language2` parametresini kullanarak istediğiniz dilleri çıkartabilirsiniz.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri&hide=javascript,html)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=mustafacagri&hide=javascript,html)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### Daha Fazla Dil Gösterin
@@ -273,7 +273,7 @@ Endpoint: `api/top-langs?username=mustafacagri`
 `&langs_count=` parametresini kullanarak kartınızda gösterilen dil sayısını azaltabilir ya da artırabilirsiniz. Varsayılan değeri 5, kullanılabilir sayı aralığı ise 1-10'dur.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri&langs_count=8)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=mustafacagri&langs_count=8)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### Kompakt Dil Kartı Düzeni
@@ -281,34 +281,34 @@ Endpoint: `api/top-langs?username=mustafacagri`
 `&layout=compact` parametresiyle kart tasarımınızı değiştirebilirsiniz.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri&layout=compact)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=mustafacagri&layout=compact)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### Demo
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=mustafacagri)](https://github.com/theck13/github-readme-statistics)
 
 - Kompakt Düzen / Layout
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri&layout=compact)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=mustafacagri&layout=compact)](https://github.com/theck13/github-readme-statistics)
 
 # WakaTime Haftalık İstatistikler
 
 `?username=` değerini [WakaTime](https://wakatime.com)'daki kullanıcı adınızla değiştirin.
 
 ```md
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/theck13/github-readme-stats)
+[![Harlok's WakaTime stats](https://github-readme-statistics-main.vercel.app/api/wakatime?username=ffflabs)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### Demo
 
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/theck13/github-readme-stats)
+[![Harlok's WakaTime stats](https://github-readme-statistics-main.vercel.app/api/wakatime?username=ffflabs)](https://github.com/theck13/github-readme-statistics)
 
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/theck13/github-readme-stats)
+[![Harlok's WakaTime stats](https://github-readme-statistics-main.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/theck13/github-readme-statistics)
 
 - Kompakt Düzen
 
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs&layout=compact)](https://github.com/theck13/github-readme-stats)
+[![Harlok's WakaTime stats](https://github-readme-statistics-main.vercel.app/api/wakatime?username=ffflabs&layout=compact)](https://github.com/theck13/github-readme-statistics)
 
 ---
 
@@ -316,49 +316,49 @@ Endpoint: `api/top-langs?username=mustafacagri`
 
 - Varsayılan
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13)
 
 - Belirli istatistikler gizli
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&hide=contribs,issues)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&hide=contribs,issues)
 
 - İkonlar gösteriliyor
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&hide=issues&show_icons=true)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&hide=issues&show_icons=true)
 
 - Tüm commitler dahil
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&include_all_commits=true)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&include_all_commits=true)
 
 - Temalar
 
 [default themes](#themes) adresinden istediğiniz temayı seçin.
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=mustafacagri&show_icons=true&theme=radical)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=mustafacagri&show_icons=true&theme=radical)
 
 - Gradient
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - İstatistik Kartını Düzenleyin
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=theck13&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api/?username=theck13&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - Kartın dilini seçin
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=theck13&locale=es)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api/?username=theck13&locale=es)
 
 - Repo kartı düzenleyin
 
-![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=theck13&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://github-readme-statistics-main.vercel.app/api/pin?username=theck13&repo=github-readme-statistics&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - En çok kullanılan diller
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-statistics)
 
 - WakaTime kart
 
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/theck13/github-readme-stats)
+[![Harlok's WakaTime stats](https://github-readme-statistics-main.vercel.app/api/wakatime?username=ffflabs)](https://github.com/theck13/github-readme-statistics)
 
 ---
 
@@ -367,11 +367,11 @@ Endpoint: `api/top-langs?username=mustafacagri`
 Genellikle resimleri yan yana düzenleyemezsiniz. Bunu yapmak için şu yaklaşımı kullanabilirsiniz:
 
 ```html
-<a href="https://github.com/theck13/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=theck13&repo=github-readme-stats" />
+<a href="https://github.com/theck13/github-readme-statistics">
+  <img align="center" src="https://github-readme-statistics-main.vercel.app/api/pin/?username=theck13&repo=github-readme-statistics" />
 </a>
 <a href="https://github.com/theck13/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=theck13&repo=convoychat" />
+  <img align="center" src="https://github-readme-statistics-main.vercel.app/api/pin/?username=theck13&repo=convoychat" />
 </a>
 ```
 
@@ -380,12 +380,12 @@ Genellikle resimleri yan yana düzenleyemezsiniz. Bunu yapmak için şu yaklaş�
 
 #### [@codeSTACKr'ın Yayınladığı Video Eğitimine Göz Atın](https://youtu.be/n6d4KHSKqGk?t=107)
 
-GitHub API saatte sadece 5.000 isteğe izin verdiği için `https://github-readme-stats.vercel.app/api` adresindeki API'm bu limite muhtemelen takılmış olabilir. Eğer projeyi kendi Vercel sunucunuzda yayınlarsanız, böyle bir sorun yaşamayabilirsiniz. Deploy butonuna tıkla ve deploy başlasın!
+GitHub API saatte sadece 5.000 isteğe izin verdiği için `https://github-readme-statistics-main.vercel.app/api` adresindeki API'm bu limite muhtemelen takılmış olabilir. Eğer projeyi kendi Vercel sunucunuzda yayınlarsanız, böyle bir sorun yaşamayabilirsiniz. Deploy butonuna tıkla ve deploy başlasın!
 
 
-NOT: [#58](https://github.com/theck13/github-readme-stats/pull/58) geliştirmesi sonrasında anlamadığımız bir şekilde 5.000 istek limitine takılmıyoruz :)
+NOT: [#58](https://github.com/theck13/github-readme-statistics/pull/58) geliştirmesi sonrasında anlamadığımız bir şekilde 5.000 istek limitine takılmıyoruz :)
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/theck13/github-readme-stats)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/theck13/github-readme-statistics)
 
 <details>
  <summary><strong> Vercel Kurulum Rehberi  🔨 </strong></summary>
@@ -416,7 +416,7 @@ bu zaman alıyor. Destekleriniz sayesinde bu hizmeti ücretsiz olarak kullanabil
 
 Ayrıca, bu projeyi kullanıyor ve memnunsanız veya sadece bir şeyler yaratmaya devam etmem için beni teşvik etmek istiyorsanız, bunu yapmanın birkaç yolu var: -
 
-- Readme'nizde github-readme-stats'ı kullanırken bu projeye uygun bir link verebilirsiniz.
+- Readme'nizde github-readme-statistics'ı kullanırken bu projeye uygun bir link verebilirsiniz.
 - Projeye yıldız verebilir ve paylaşabilirsiniz :rocket:
 - [![paypal.me/theck13](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/theck13) - PayPal ile tek seferlik bağış yapabilirsiniz. Muhtemelen bir ~~kahve~~ ya da çay :tea: alacağım. 
 

@@ -4,23 +4,23 @@
  <p align="center">あなたの README に自動生成された GitHub の統計情報を載せましょう！</p>
 </p>
   <p align="center">
-    <a href="https://github.com/theck13/github-readme-stats/actions">
-      <img alt="Tests Passing" src="https://github.com/theck13/github-readme-stats/workflows/Test/badge.svg" />
+    <a href="https://github.com/theck13/github-readme-statistics/actions">
+      <img alt="Tests Passing" src="https://github.com/theck13/github-readme-statistics/workflows/Test/badge.svg" />
     </a>
-    <a href="https://github.com/theck13/github-readme-stats/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/theck13/github-readme-stats" />
+    <a href="https://github.com/theck13/github-readme-statistics/graphs/contributors">
+      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/theck13/github-readme-statistics" />
     </a>
-    <a href="https://codecov.io/gh/theck13/github-readme-stats">
-      <img alt="Tests Coverage" src="https://codecov.io/gh/theck13/github-readme-stats/branch/master/graph/badge.svg" />
+    <a href="https://codecov.io/gh/theck13/github-readme-statistics">
+      <img alt="Tests Coverage" src="https://codecov.io/gh/theck13/github-readme-statistics/branch/master/graph/badge.svg" />
     </a>
-    <a href="https://github.com/theck13/github-readme-stats/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/theck13/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/theck13/github-readme-statistics/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/theck13/github-readme-statistics?color=0088ff" />
     </a>
-    <a href="https://github.com/theck13/github-readme-stats/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/theck13/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/theck13/github-readme-statistics/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/theck13/github-readme-statistics?color=0088ff" />
     </a>
-    <a href="https://securityscorecards.dev/viewer/?uri=github.com/theck13/github-readme-stats">
-      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/theck13/github-readme-stats/badge" />
+    <a href="https://securityscorecards.dev/viewer/?uri=github.com/theck13/github-readme-statistics">
+      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/theck13/github-readme-statistics/badge" />
     </a>
     <br />
     <br />
@@ -29,9 +29,9 @@
   <p align="center">
     <a href="#demo">View Demo</a>
     ·
-    <a href="https://github.com/theck13/github-readme-stats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Report Bug</a>
+    <a href="https://github.com/theck13/github-readme-statistics/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Report Bug</a>
     ·
-    <a href="https://github.com/theck13/github-readme-stats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Request Feature</a>
+    <a href="https://github.com/theck13/github-readme-statistics/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Request Feature</a>
   </p>
   <p align="center">
     <a href="/docs/readme_fr.md">Français</a>
@@ -88,7 +88,7 @@
 `?username=` の値は、あなたの GitHub アカウントのユーザー名に変更してください。
 
 ```md
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13)](https://github.com/theck13/github-readme-stats)
+[![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13)](https://github.com/theck13/github-readme-statistics)
 ```
 
 _Note: カードに表示されるランクはユーザの統計情報に基づいて計算されています。詳しくは、[src/calculateRank.js](../src/calculateRank.js)をご覧ください。_
@@ -100,7 +100,7 @@ _Note: カードに表示されるランクはユーザの統計情報に基づ�
 > Options: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&hide=contribs,prs)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&hide=contribs,prs)
 ```
 
 ### プライベートリポジトリへのコミットをカウントする
@@ -112,7 +112,7 @@ _Note: このプロジェクトを自分でデプロイしている場合、デ�
 > Options: `&count_private=true`
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&count_private=true)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&count_private=true)
 ```
 
 ### アイコンを表示する
@@ -120,7 +120,7 @@ _Note: このプロジェクトを自分でデプロイしている場合、デ�
 クエリパラメータ `?show_icons=true` を使用することで、アイコンの表示が有効になります。
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&show_icons=true)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&show_icons=true)
 ```
 
 ### テーマの変更
@@ -130,7 +130,7 @@ _Note: このプロジェクトを自分でデプロイしている場合、デ�
 `?theme=THEME_NAME` は以下のように使います。
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&show_icons=true&theme=radical)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&show_icons=true&theme=radical)
 ```
 
 #### 内蔵テーマの一覧
@@ -208,19 +208,19 @@ GitHub extra pins を使うと、GitHub の readme プロフィールを使っ�
 
 以下のコードをあなたの readme にコピー & ペーストし、リンクを変更してください。
 
-エンドポイント: `api/pin?username=theck13&repo=github-readme-stats`
+エンドポイント: `api/pin?username=theck13&repo=github-readme-statistics`
 
 ```md
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=theck13&repo=github-readme-stats)](https://github.com/theck13/github-readme-stats)
+[![Readme Card](https://github-readme-statistics-main.vercel.app/api/pin/?username=theck13&repo=github-readme-statistics)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### デモ
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=theck13&repo=github-readme-stats)](https://github.com/theck13/github-readme-stats)
+[![Readme Card](https://github-readme-statistics-main.vercel.app/api/pin/?username=theck13&repo=github-readme-statistics)](https://github.com/theck13/github-readme-statistics)
 
 リポジトリのオーナーのユーザー名を含める場合は、show_owner 変数を使用します。
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=theck13&repo=github-readme-stats&show_owner=true)](https://github.com/theck13/github-readme-stats)
+[![Readme Card](https://github-readme-statistics-main.vercel.app/api/pin/?username=theck13&repo=github-readme-statistics&show_owner=true)](https://github.com/theck13/github-readme-statistics)
 
 # Top Languages Card
 
@@ -235,7 +235,7 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 エンドポイント: `api/top-langs?username=theck13`
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### 特定の言語を隠す
@@ -243,7 +243,7 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 クエリパラメータ `?hide=language1,language2` 使用することで、特定の言語を非表示にすることができます。
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13&hide=javascript,html)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13&hide=javascript,html)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### レイアウトをコンパクトにする
@@ -251,16 +251,16 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 クエリパラメータ `&layout=compact` を使用することで、カードのデザインを変更することができます。
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13&layout=compact)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13&layout=compact)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### デモ
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-statistics)
 
 - Compact layout の場合
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13&layout=compact)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13&layout=compact)](https://github.com/theck13/github-readme-statistics)
 
 ---
 
@@ -268,41 +268,41 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 
 - デフォルト
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13)
 
 - 特定の統計情報を隠す
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&hide=contribs,issues)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&hide=contribs,issues)
 
 - アイコンを表示する
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&hide=issues&show_icons=true)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&hide=issues&show_icons=true)
 
 - コミット数の総数をカウントする
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&include_all_commits=true)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&include_all_commits=true)
 
 - テーマの変更
 
 任意の[テーマ](#themes)を選択できます。
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&show_icons=true&theme=radical)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&show_icons=true&theme=radical)
 
 - グラデーション
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - stats card のカスタマイズ
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=theck13&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api/?username=theck13&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - repo card のカスタマイズ
 
-![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=theck13&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://github-readme-statistics-main.vercel.app/api/pin?username=theck13&repo=github-readme-statistics&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - Top languages
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-statistics)
 
 ---
 
@@ -311,11 +311,11 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 通常、画像を並べてレイアウトすることはできません。画像を並べるには、以下のような方法があります。
 
 ```html
-<a href="https://github.com/theck13/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=theck13&repo=github-readme-stats" />
+<a href="https://github.com/theck13/github-readme-statistics">
+  <img align="center" src="https://github-readme-statistics-main.vercel.app/api/pin/?username=theck13&repo=github-readme-statistics" />
 </a>
 <a href="https://github.com/theck13/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=theck13&repo=convoychat" />
+  <img align="center" src="https://github-readme-statistics-main.vercel.app/api/pin/?username=theck13&repo=convoychat" />
 </a>
 ```
 
@@ -323,11 +323,11 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 
 #### [@codeSTACKr によるチュートリアルはこちら](https://youtu.be/n6d4KHSKqGk?t=107)
 
-GitHub API は 1 時間あたり 5k リクエストしか受け付けていないので、私の `https://github-readme-stats.vercel.app/api` がレートリミッターを超えてしまう可能性があります。自分の Vercel サーバーでホストしているのであれば、何も心配する必要はありません。デプロイボタンをクリックして始めましょう！
+GitHub API は 1 時間あたり 5k リクエストしか受け付けていないので、私の `https://github-readme-statistics-main.vercel.app/api` がレートリミッターを超えてしまう可能性があります。自分の Vercel サーバーでホストしているのであれば、何も心配する必要はありません。デプロイボタンをクリックして始めましょう！
 
-NOTE: [#58](https://github.com/theck13/github-readme-stats/pull/58) 以降は 5k 以上のリクエストに対応できるようになり、ダウンタイムの問題もなくなりました :smile:
+NOTE: [#58](https://github.com/theck13/github-readme-statistics/pull/58) 以降は 5k 以上のリクエストに対応できるようになり、ダウンタイムの問題もなくなりました :smile:
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/theck13/github-readme-stats)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/theck13/github-readme-statistics)
 
 <details>
  <summary>Vercelの設定ガイド</summary>
@@ -357,7 +357,7 @@ NOTE: [#58](https://github.com/theck13/github-readme-stats/pull/58) 以降は 5k
 
 しかしながら、もしあなたがこのプロジェクトに満足しているのであれば、あるいはただ、私がソフトウェアを作り続けるよう励ましたいのであれば、いくつかの方法があります。
 
-- あなたの readme で github-readme-stats を使用して適切なクレジットを付与し、それにリンクします :smile:
+- あなたの readme で github-readme-statistics を使用して適切なクレジットを付与し、それにリンクします :smile:
 - このプロジェクトにスターを贈り、他の人達にもシェアしてください :rocket:
 - [![paypal.me/theck13](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/theck13) - PayPal を介して 1 回限りの寄付を行うことができます。私はおそらく ~~コーヒー~~ お茶を買うでしょう。 :tea:
 

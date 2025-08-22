@@ -4,23 +4,23 @@
  <p align="center">Krijg dynamisch gegenereerde GitHub statistieken op je readme's!</p>
 </p>
   <p align="center">
-    <a href="https://github.com/theck13/github-readme-stats/actions">
-      <img alt="Tests Passing" src="https://github.com/theck13/github-readme-stats/workflows/Test/badge.svg" />
+    <a href="https://github.com/theck13/github-readme-statistics/actions">
+      <img alt="Tests Passing" src="https://github.com/theck13/github-readme-statistics/workflows/Test/badge.svg" />
     </a>
-    <a href="https://github.com/theck13/github-readme-stats/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/theck13/github-readme-stats" />
+    <a href="https://github.com/theck13/github-readme-statistics/graphs/contributors">
+      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/theck13/github-readme-statistics" />
     </a>
-    <a href="https://codecov.io/gh/theck13/github-readme-stats">
-      <img alt="Tests Coverage" src="https://codecov.io/gh/theck13/github-readme-stats/branch/master/graph/badge.svg" />
+    <a href="https://codecov.io/gh/theck13/github-readme-statistics">
+      <img alt="Tests Coverage" src="https://codecov.io/gh/theck13/github-readme-statistics/branch/master/graph/badge.svg" />
     </a>
-    <a href="https://github.com/theck13/github-readme-stats/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/theck13/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/theck13/github-readme-statistics/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/theck13/github-readme-statistics?color=0088ff" />
     </a>
-    <a href="https://github.com/theck13/github-readme-stats/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/theck13/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/theck13/github-readme-statistics/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/theck13/github-readme-statistics?color=0088ff" />
     </a>
-    <a href="https://securityscorecards.dev/viewer/?uri=github.com/theck13/github-readme-stats">
-      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/theck13/github-readme-stats/badge" />
+    <a href="https://securityscorecards.dev/viewer/?uri=github.com/theck13/github-readme-statistics">
+      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/theck13/github-readme-statistics/badge" />
     </a>
     <br />
     <br />
@@ -29,9 +29,9 @@
   <p align="center">
     <a href="#demo">Bekijk Demo</a>
     ·
-    <a href="https://github.com/theck13/github-readme-stats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Rapporteer een Bug</a>
+    <a href="https://github.com/theck13/github-readme-statistics/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Rapporteer een Bug</a>
     ·
-    <a href="https://github.com/theck13/github-readme-stats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Vraag een nieuwe toepassing aan</a>
+    <a href="https://github.com/theck13/github-readme-statistics/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Vraag een nieuwe toepassing aan</a>
   </p>
   <p align="center">
     <a href="/docs/readme_fr.md">Français </a>
@@ -91,7 +91,7 @@ Kopieer en plak dit in je markdown content, zo simpel is het!
 Verander de waarde `?username=` naar jou gebruikersnaam.
 
 ```md
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13)](https://github.com/theck13/github-readme-stats)
+[![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13)](https://github.com/theck13/github-readme-statistics)
 ```
 
 _Notitie: Beschikbare rangen zijn S+ (top 1%), S (top 25%), A++ (top 45%), A+ (top 60%), and B+ (iedereen).
@@ -106,7 +106,7 @@ Om specifieke statistieken te verbergen, kan je een `?hide=` query parameter toe
 > Opties: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&hide=contribs,prs)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&hide=contribs,prs)
 ```
 
 ### Voeg privé contributies toe aan totale commits.
@@ -118,7 +118,7 @@ _Notitie: Als je dit project zelf deployt, zullen de privé contributies standaa
 > Opties: `&count_private=true`
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&count_private=true)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&count_private=true)
 ```
 
 ### Laat icoontjes zien
@@ -126,7 +126,7 @@ _Notitie: Als je dit project zelf deployt, zullen de privé contributies standaa
 Om icoontjes te gebruiken kan je `show_icons=true` gebruiken in de query parameter, zoals hier:
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&show_icons=true)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&show_icons=true)
 ```
 
 ### Thema\'s
@@ -136,7 +136,7 @@ Met ingebouwde thema\'s kan je het uiterlijk van de kaart aanpassen zonder enige
 Gebruik `?theme=THEME_NAME` parameters zo :-
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&show_icons=true&theme=radical)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&show_icons=true&theme=radical)
 ```
 
 #### Alle ingeboude thema\'s :-
@@ -222,25 +222,25 @@ Joepie! Je bent niet langer aan 6 pins gelimiteerd!
 
 Kopieer en plak deze code in je readme en verander de links.
 
-Eindpunt: `api/pin?username=theck13&repo=github-readme-stats`
+Eindpunt: `api/pin?username=theck13&repo=github-readme-statistics`
 
 ```md
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=theck13&repo=github-readme-stats)](https://github.com/theck13/github-readme-stats)
+[![Readme Card](https://github-readme-statistics-main.vercel.app/api/pin/?username=theck13&repo=github-readme-statistics)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### Demo
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=theck13&repo=github-readme-stats)](https://github.com/theck13/github-readme-stats)
+[![Readme Card](https://github-readme-statistics-main.vercel.app/api/pin/?username=theck13&repo=github-readme-statistics)](https://github.com/theck13/github-readme-statistics)
 
 Gebruikt [show_owner](#customization) variabele om de repo\'s eigenaar toe te voegen
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=theck13&repo=github-readme-stats&show_owner=true)](https://github.com/theck13/github-readme-stats)
+[![Readme Card](https://github-readme-statistics-main.vercel.app/api/pin/?username=theck13&repo=github-readme-statistics&show_owner=true)](https://github.com/theck13/github-readme-statistics)
 
 # Top Programmeertalen Kaart
 
 De top programmeertalen kaart laat zien welke talen een GitHub gebruiker het meest gebruikt.
 
-_Notitie: Top programmeertalen wijzen niet op een vaardigheids niveau, het is puur een GitHub metriek over welke talen de meeste code op GitHub hebben. Het is een nieuwe funktie van github-readme-stats._
+_Notitie: Top programmeertalen wijzen niet op een vaardigheids niveau, het is puur een GitHub metriek over welke talen de meeste code op GitHub hebben. Het is een nieuwe funktie van github-readme-statistics._
 
 ### Gebruik
 
@@ -250,7 +250,7 @@ Kopieer en plak deze code in je readme en verander de links.
 Eindpunt: `api/top-langs?username=theck13`
 
 ```md
-[![Top Talen](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-stats)
+[![Top Talen](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### Verberg individueele repositories
@@ -258,7 +258,7 @@ Eindpunt: `api/top-langs?username=theck13`
 Je kan de parameter `?exclude_repo=repo1,repo2` gebruiken om individueele repositories te verbergen.
 
 ```md
-[![Top Talen](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13&exclude_repo=github-readme-stats,theck13.github.io)](https://github.com/theck13/github-readme-stats)
+[![Top Talen](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13&exclude_repo=github-readme-statistics,theck13.github.io)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### Verberg individueele talen
@@ -266,7 +266,7 @@ Je kan de parameter `?exclude_repo=repo1,repo2` gebruiken om individueele reposi
 Je kan de `?hide=taal1,taal2` parameter gebruiken om individuele programmeer talen te verbergen.
 
 ```md
-[![Top Talen](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13&hide=javascript,html)](https://github.com/theck13/github-readme-stats)
+[![Top Talen](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13&hide=javascript,html)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### Laat meer programmeertalen zien
@@ -274,7 +274,7 @@ Je kan de `?hide=taal1,taal2` parameter gebruiken om individuele programmeer tal
 Je kan de `&langs_count=` optie gebruiken om de hoeveelheid talen op je kaart groter en kleiner te maken. Geldige waardes zijn tussen de 1 en 10 (inclusief), en de standaard waarde is 5.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13&langs_count=8)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13&langs_count=8)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### Compacte Talen Kaart opmaak
@@ -282,30 +282,30 @@ Je kan de `&langs_count=` optie gebruiken om de hoeveelheid talen op je kaart gr
 Je kan de `&layout=compact` optie gebruiken om het kaart ontwerp aan te passen.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13&layout=compact)](https://github.com/theck13/github-readme-stats)
+[![Top Langs](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13&layout=compact)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### Demo
 
-[![Top programmeertalen](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-stats)
+[![Top programmeertalen](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-statistics)
 
 - Compacte opmaak
 
-[![Top programmeertalen](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13&layout=compact)](https://github.com/theck13/github-readme-stats)
+[![Top programmeertalen](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13&layout=compact)](https://github.com/theck13/github-readme-statistics)
 
 # Wekelijkse WakaTime Statistieken
 
 Verander de `?username=` waarde naar je [WakaTime](https://wakatime.com) gebruikersnaam.
 
 ```md
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/theck13/github-readme-stats)
+[![Harlok's WakaTime stats](https://github-readme-statistics-main.vercel.app/api/wakatime?username=ffflabs)](https://github.com/theck13/github-readme-statistics)
 ```
 
 ### Demo
 
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/theck13/github-readme-stats)
+[![Harlok's WakaTime stats](https://github-readme-statistics-main.vercel.app/api/wakatime?username=ffflabs)](https://github.com/theck13/github-readme-statistics)
 
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/theck13/github-readme-stats)
+[![Harlok's WakaTime stats](https://github-readme-statistics-main.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/theck13/github-readme-statistics)
 
 ---
 
@@ -313,49 +313,49 @@ Verander de `?username=` waarde naar je [WakaTime](https://wakatime.com) gebruik
 
 - Standaard
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13)
 
 - Verberg specifieke statestieken
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&hide=contribs,issues)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&hide=contribs,issues)
 
 - Weergeef icoontjes
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&hide=issues&show_icons=true)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&hide=issues&show_icons=true)
 
 - Voeg alle commits toe
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&include_all_commits=true)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&include_all_commits=true)
 
 - Thema\'s
 
 Kies uit de [standaard thema\'s](#themes)
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&show_icons=true&theme=radical)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&show_icons=true&theme=radical)
 
 - Kleurenverloop
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=theck13&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api?username=theck13&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - Pas statistieken kaart aan
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=theck13&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api/?username=theck13&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - Stel je kaart locale (taal) in
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=theck13&locale=es)
+![Anurag's GitHub Statistics](https://github-readme-statistics-main.vercel.app/api/?username=theck13&locale=es)
 
 - Pas repo kaart aan.
 
-![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=theck13&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://github-readme-statistics-main.vercel.app/api/pin?username=theck13&repo=github-readme-statistics&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - Top programmeertalen
 
-[![Top Programmeertalen](https://github-readme-stats.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-stats)
+[![Top Programmeertalen](https://github-readme-statistics-main.vercel.app/api/top-langs/?username=theck13)](https://github.com/theck13/github-readme-statistics)
 
 - WakaTime kaart
 
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/theck13/github-readme-stats)
+[![Harlok's WakaTime stats](https://github-readme-statistics-main.vercel.app/api/wakatime?username=ffflabs)](https://github.com/theck13/github-readme-statistics)
 
 ---
 
@@ -364,11 +364,11 @@ Kies uit de [standaard thema\'s](#themes)
 Meestal kan je de afbeeldingen niet naast elkaar zetten, op deze manier wel:
 
 ```html
-<a href="https://github.com/theck13/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=theck13&repo=github-readme-stats" />
+<a href="https://github.com/theck13/github-readme-statistics">
+  <img align="center" src="https://github-readme-statistics-main.vercel.app/api/pin/?username=theck13&repo=github-readme-statistics" />
 </a>
 <a href="https://github.com/theck13/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=theck13&repo=convoychat" />
+  <img align="center" src="https://github-readme-statistics-main.vercel.app/api/pin/?username=theck13&repo=convoychat" />
 </a>
 ```
 
@@ -376,11 +376,11 @@ Meestal kan je de afbeeldingen niet naast elkaar zetten, op deze manier wel:
 
 #### [Check de stapsgewijze video tutorial door @codeSTACKr (In het Engels)](https://youtu.be/n6d4KHSKqGk?t=107)
 
-Sinds de GitHub API alleen maar 5k verzoeken per uur toestaat, zou mijn `https://github-readme-stats.vercel.app/api` mogelijk de rate limiet behalen. Als je het op je eigen Vercel server host, dan hoef je je nergens zorgen om te maken. Klik op de deploy knop om te beginnen!
+Sinds de GitHub API alleen maar 5k verzoeken per uur toestaat, zou mijn `https://github-readme-statistics-main.vercel.app/api` mogelijk de rate limiet behalen. Als je het op je eigen Vercel server host, dan hoef je je nergens zorgen om te maken. Klik op de deploy knop om te beginnen!
 
-NOTITIE: Sinds [#58](https://github.com/theck13/github-readme-stats/pull/58) zouden we geen problemen meer moeten hebben de 5k verzoeken per uur, en verdere downtime :D
+NOTITIE: Sinds [#58](https://github.com/theck13/github-readme-statistics/pull/58) zouden we geen problemen meer moeten hebben de 5k verzoeken per uur, en verdere downtime :D
 
-[![Deploy naar Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/theck13/github-readme-stats)
+[![Deploy naar Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/theck13/github-readme-statistics)
 
 <details>
  <summary><b>Versel deploy gids:  🔨 </b></summary>
@@ -409,7 +409,7 @@ Ik maak bijna alles open-source wat ik kan, en ik probeer iedereen te helpen die
 
 Hoe dan ook, als je dit project gebruikt en er blij mee bent, of mij wilt aanmoedigen om dingen te blijven maken, zijn er een paar manieren om dit te doen; -
 
-- Credits geven aan github-readme-stats op je readme, die terug naar het project linkt :D
+- Credits geven aan github-readme-statistics op je readme, die terug naar het project linkt :D
 - Sterren en delen van het project :rocket:
 - [![paypal.me/theck13](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/theck13) - Je kan eenmalig giften via PayPal, ik koop er waarschijnlijk ~~koffie~~ thee van. :tea:
 

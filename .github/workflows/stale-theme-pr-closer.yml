@@ -28,7 +28,7 @@ permissions:
 
 jobs:
   closeOldThemePrs:
-    if: github.repository == 'theck13/github-readme-stats'
+    if: github.repository == 'theck13/github-readme-statistics'
     name: Close stale 'invalid' theme PRs
     runs-on: ubuntu-latest
     strategy:

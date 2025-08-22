@@ -1,22 +1,22 @@
 {
-  "name": "github-readme-stats",
+  "name": "github-readme-statistics",
   "version": "1.0.0",
   "description": "Dynamically generate stats for your GitHub readme",
   "keywords": [
-    "github-readme-stats",
+    "github-readme-statistics",
     "readme-stats",
     "cards",
     "card-generator"
   ],
   "main": "src/index.js",
   "type": "module",
-  "homepage": "https://github.com/theck13/github-readme-stats",
+  "homepage": "https://github.com/theck13/github-readme-statistics",
   "bugs": {
-    "url": "https://github.com/theck13/github-readme-stats/issues"
+    "url": "https://github.com/theck13/github-readme-statistics/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/theck13/github-readme-stats.git"
+    "url": "https://github.com/theck13/github-readme-statistics.git"
   },
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",

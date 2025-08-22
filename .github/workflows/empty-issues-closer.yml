@@ -22,7 +22,7 @@ permissions:
 
 jobs:
   closeEmptyIssuesAndTemplates:
-    if: github.repository == 'theck13/github-readme-stats'
+    if: github.repository == 'theck13/github-readme-statistics'
     name: Close empty issues
     runs-on: ubuntu-latest
     steps:

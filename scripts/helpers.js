@@ -5,7 +5,7 @@
 import { getInput } from "@actions/core";
 
 const OWNER = "theck13";
-const REPO = "github-readme-stats";
+const REPO = "github-readme-statistics";
 
 /**
  * Retrieve information about the repository that ran the action.
