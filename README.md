@@ -35,7 +35,7 @@ GitHub `README` Statistics
   - [Sync Your Fork](#sync-your-fork)
 
 > [!IMPORTANT]\
-> Since the GitHub API only [allows 5,000 requests per hour per user account](https://docs.github.com/en/graphql/overview/resource-limitations), the public Vercel instance hosted on `https://github-readme-statistics-main.vercel.app/api` could possibly hit the rate limiter (see [#1471](https://github.com/anuraghazra/github-readme-stats/issues/1471)).  We use caching to prevent this from happening (see https://github.com/anuraghazra/github-readme-statistics#common-options).  You can turn off these rate limit protections by [deploying your own](#deploy-your-own) Vercel instance.
+> Since the GitHub API only [allows 5,000 requests per hour per user account](https://docs.github.com/en/graphql/overview/resource-limitations), the public Vercel instance hosted on `https://github-readme-statistics-main.vercel.app/api` could possibly hit the rate limiter (see [#1471](https://github.com/anuraghazra/github-readme-stats/issues/1471)).  We use caching to prevent this from happening (see https://github.com/theck13/github-readme-statistics#common-options).  You can turn off these rate limit protections by [deploying your own](#deploy-your-own) Vercel instance.
 
 ***
 
@@ -51,7 +51,7 @@ Copy and paste this into your markdown and change the `USERNAME` value to your G
 > The statistics card only shows stars, commits, and pull requests from public repositories.  To include statistics from private repositories, [deploy your instance](#deploy-your-instance) using your own GitHub API token.
 
 > [!NOTE]\
-> Available ranks are S (top 1%), A+ (12.5%), A (25%), A- (37.5%), B+ (50%), B (62.5%), B- (75%), C+ (87.5%) and C (everyone).  This ranking scheme is based on the [Japanese academic grading](https://wikipedia.org/wiki/Academic_grading_in_Japan) system.  The global percentile is calculated as a weighted sum of percentiles for each statistic (number of commits, pull requests, reviews, issues, stars, and followers) based on the cumulative distribution function of the [exponential](https://wikipedia.org/wiki/exponential_distribution) and the [log-normal](https://wikipedia.org/wiki/Log-normal_distribution) distributions.  The implementation can be investigated at [src/calculateRank.js](https://github.com/anuraghazra/github-readme-statistics/blob/master/src/calculateRank.js).  The dark ring around the rank shows 100 minus the global percentile.
+> Available ranks are S (top 1%), A+ (12.5%), A (25%), A- (37.5%), B+ (50%), B (62.5%), B- (75%), C+ (87.5%) and C (everyone).  This ranking scheme is based on the [Japanese academic grading](https://wikipedia.org/wiki/Academic_grading_in_Japan) system.  The global percentile is calculated as a weighted sum of percentiles for each statistic (number of commits, pull requests, reviews, issues, stars, and followers) based on the cumulative distribution function of the [exponential](https://wikipedia.org/wiki/exponential_distribution) and the [log-normal](https://wikipedia.org/wiki/Log-normal_distribution) distributions.  The implementation can be investigated at [src/calculateRank.js](https://github.com/theck13/github-readme-statistics/blob/master/src/calculateRank.js).  The dark ring around the rank shows 100 minus the global percentile.
 
 ### Hide Default Statistics
 
